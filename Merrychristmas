@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/04/67/79/44/360_F_467794401_GbHBNEn6CIVnNaegs1xnQVhJma3Hhwf9.jpg");
+  background-size: cover;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: white;
+  color: red;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: Times New Roman;
+  font-size: 40px;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Merry Christmas Maria <3</h1>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+  color: red;
+}
+
+p {
+  font-family:  Times New Roman ;
+  font-size: 30px;
+  margin: 0;
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<button onclick="toggleDisplay()">Click</button>
+
+<p id="text-display">Dear Maria,<br>
+    <br>
+    I just wanted to take a moment to tell you how much I've enjoyed getting to know you this semester. You are an amazing person and I am so grateful for the time we've spent together.<br>
+    <br>
+    As the holiday season approaches, I want to wish you a very merry Christmas. I hope you have a wonderful time surrounded by loved ones, and that the new year brings you even more happiness and success.<br>
+    <br>
+    Sincerely,<br>
+    Saif
+
+<script>
+function toggleDisplay() {
+  var textDisplay = document.getElementById("text-display");
+  if (textDisplay.style.display === "none") {
+    textDisplay.style.display = "block";
+  } else {
+    textDisplay.style.display = "none";
+  }
+}
+</script>
+</body>
+
+</body>
+</html>
+<img src="https://i.pinimg.com/originals/ff/6e/bd/ff6ebd0dfb50a44c04c842f365df4446.gif" alt="Merry Christmas GIF">
+</body>
+</html>
